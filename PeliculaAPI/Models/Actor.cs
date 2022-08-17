@@ -18,5 +18,7 @@ namespace PeliculaAPI.Models
         [ForeignKey("categoriaId")]
         public Categoria Categoria { get; set; }
 
+        public int PeliculasFIlmadas {get; set;}
+
     }
 }
