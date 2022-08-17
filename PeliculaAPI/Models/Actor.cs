@@ -10,6 +10,7 @@ namespace PeliculaAPI.Models
         public string? Nombre { get; set; }
         public string? RutaImagen { get; set; }
         public string? Descripcion { get; set; }
+        //Emmanuel Nájera Castrejón
         public string? Duracion { get; set; }
         public enum TipoClasificacion { Siete, Trece, Dieciseis, Dieciocho }
         public TipoClasificacion Clasificacion { get; set; }
