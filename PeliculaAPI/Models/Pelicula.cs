@@ -17,6 +17,6 @@ namespace PeliculaAPI.Models
         public int categoriaId { get; set; }
         [ForeignKey("categoriaId")]
         public Categoria Categoria { get; set; }
-
+        //Agregando comentario.
     }
 }
