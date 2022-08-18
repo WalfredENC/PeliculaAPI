@@ -1,9 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PeliculaAPI.Models
 {
-    public class Pelicula
+    public class Rebase
     {
         [Key]
         public int Id { get; set; }
@@ -17,6 +17,6 @@ namespace PeliculaAPI.Models
         public int categoriaId { get; set; }
         [ForeignKey("categoriaId")]
         public Categoria Categoria { get; set; }
-        //Agregando comentario.
+
     }
 }

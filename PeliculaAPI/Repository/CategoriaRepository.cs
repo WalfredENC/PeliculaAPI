@@ -52,9 +52,10 @@ namespace PeliculaAPI.Repository
             return _bd.Categoria.OrderBy(c => c.Nombre).ToList();
         }
 
-        public bool Guardar()
+        /*public bool Guardar()
         {
             return _bd.SaveChanges() >= 0 ? true : false;
-        }
+        }*/
+        //Eliminando método guardar.
     }
 }
